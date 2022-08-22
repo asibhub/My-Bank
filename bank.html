@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bank</title>
+
+    <!-- CSS Link  -->
+    <link rel="stylesheet" href="bank.css">
+
+    <!-- FavIcon Link  -->
+    <link rel="shortcut icon" href="https://logos-download.com/wp-content/uploads/2016/06/Yes_Bank_logo.png" type="image/x-icon">
+
+    <!-- Bootstrap Link  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+
+
+    <div class="container">
+
+        <h1 class="display-2 text-center mt-5">Let's Get Some <span class="text-success">Moneyyy !!!</span></h1>
+
+
+        <!-- card Section  -->
+        <!-- Deposite card  -->
+        <div class="row mt-4">
+            <div class="col-md-4 col-sm-6 col-12">
+              <div class="card">
+                <div class="card-body size">
+                  <div class="mt-5 text-white">
+                  <h4>Deposite</h4>
+                  <h2>$<span id="deposite-amount">00</span></h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+        <!-- Withdraw Card  -->
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                  <div class="card-body size1">
+                    <div class="mt-5 text-white">
+                    <h4>Withdraw</h4>
+                    <h2>$<span id="total-withdraw">00</span></h2>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        
+        <!-- Balance Card  -->
+              <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                  <div class="card-body size2">
+                    <div class="mt-5 text-white">
+                        <h4>Balance</h4>
+                        <h2>$<span id="balance">1000</span></h2>
+                    </div>                
+                  </div>
+                </div>
+              </div>
+          </div>
+
+         <!-- Deposite And Withdraw button  -->
+          <div class="row mt-5">
+            <div class="col-md-6 col-sm-6 col-12">
+                <div class="card">
+                  <div class="card-body size4">
+                    <div class="mt-5">
+                        <h4 class="text-white">Please Deposite!!</h4>
+                        <input id="depo" class="form-control w-75" type="text" placeholder="withdraw amount">
+                        <br>
+                        <button id="deposite" type="button" class="btn btn-danger btn-lg">Deposite</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            <div class="col-md-6 col-sm-6 col-12">
+                <div class="card">
+                  <div class="card-body size5">
+                    <div class="mt-5">
+                        <h4 class="text-white">Please Withdraw</h4>
+                        <input id="withdraw-amount" class="form-control w-75" type="text" placeholder="deposite amount">
+                        <br>
+                        <button id="withdraw" type="button" class="btn btn-danger btn-lg">Withdraw</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+    </div>
+      
+
+    <script src="js/bank.js"></script>
+
+
+
+      <!-- JavaScript Link Bootstrap -->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>

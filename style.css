@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.login{
+    display: flex;
+    background-color: lightblue;
+    width: 100%;
+    height: 300px;
+    margin-top: 20px;
+}
+.feild{
+    width: 100%;
+    margin-top: 50px;
+}
+.feild input{
+    width: 50%;
+    margin: auto 20px;
+}
+.feild h1{
+    margin: auto 20px;
+}
+.feild button{
+    margin: 20px;
+}
+.card{
+    border: none !important;
+}

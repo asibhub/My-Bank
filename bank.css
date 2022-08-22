@@ -1,0 +1,28 @@
+.size{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(135, 105, 163);
+}
+.size1{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(156, 194, 148);
+}
+.size2{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(189, 161, 103);
+}
+.size4{
+    height: 300px;
+    width: 100%;
+    background-color: rgb(27, 63, 63);
+}
+.size5{
+    height: 300px;
+    width: 100%;
+    background-color: darkcyan;
+}
+.card{
+    border: none !important;
+}
